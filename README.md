@@ -1,5 +1,7 @@
 # vimcheatsheet
 
+## Editing
+
 ### Buffers, Windows, Tabs
 
 1. A _buffer_ in Vim is an open instance of a file, that may not necessarily be visible on the screen.
@@ -27,6 +29,20 @@
 
 See [wildmode](http://vimdoc.sourceforge.net/htmldoc/options.html#'wildmode') for tab completion with wildcards.
 
+## Movement
+
+See also [motion.txt](http://vimdoc.sourceforge.net/htmldoc/motion.html#motion.txt).
+
+### Jumping around the screen
+
+- **H** - jump to the top of the screen
+- **M** - jump to the middle of the screen
+- **L** - jump to the bottom of the screen
+- **G** - jump to the end of the file
+- **gg** - jump to the start of the file
+- **''** (singlequotes) - return to line before the jump
+- **``** (backticks) - return to the cursor position before the jump
+
 ### Scrolling the screen
 
 - **zz** - move current line to the middle of the screen
@@ -42,7 +58,7 @@ See [wildmode](http://vimdoc.sourceforge.net/htmldoc/options.html#'wildmode') fo
 |Ctrl-b|moves screen up one page|
 |Ctrl-f|moves screen down one page|
 
-### File Explorer
+## File Explorer
 
 - **:Sex** to split and open file explorer (horizontal split)
 - **:Sex!** to split file explorer vertically
