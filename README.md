@@ -9,7 +9,7 @@
 ### Buffers
 
 |Cmd|Description|
-|-|--|
+|---|---|
 |**:ls**|show buffer list|
 |**:edit**|open file in buffer to edit|
 |**:bn**, **:bp**|open next/prev buffer in current window|
@@ -34,7 +34,7 @@ See [wildmode](http://vimdoc.sourceforge.net/htmldoc/options.html#'wildmode') fo
 - **zb** - move current line to the bottom of the screen
 
 |Cmd|Description|
-|-|--|
+|---|---|
 |Ctrl-y|moves screen up one line|
 |Ctrl-e|moves screen down one line|
 |Ctrl-u|move screen up half a page|
